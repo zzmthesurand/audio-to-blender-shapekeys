@@ -1,6 +1,11 @@
 # audio-to-blender-shapekeys
 A Python notebook and script that takes a .wav file and converts it into an array of keyframes for usage with Blender.
 
+## Prerequisites
+- allosaurus >= 1.0.2
+- pandas >= 1.5.1
+- Blender >= 3.3.0
+
 ## Usage
 There are three different variables you have to change in order to use this with your own files. Two in the `phoneme processor.ipynb` notebook, and one in the `AudioToKeyframe.py` script. Of course you can change other parts to fit your needs, but if you want to use it as is, these are the only three you need to change.
 1. phoneme processor.ipynb
