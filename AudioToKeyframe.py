@@ -3,10 +3,10 @@ import csv
 import math
 mouth = bpy.data.objects["Mouth"]
 
-filename = "INSERT_FILEPATH_HERE"
+FILEPATH = "INSERT_FILEPATH_HERE"
 framerate = bpy.context.scene.render.fps
 
-with open(filename, 'r') as fd:
+with open(FILEPATH, 'r') as fd:
     reader = csv.reader(fd)
     next(reader, None)
     for kf in reader:
